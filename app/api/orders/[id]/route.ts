@@ -1,6 +1,6 @@
 import { MongoClient, ObjectId } from "mongodb"
 
-const uri = process.env.MONGODB_URI || "mongodb+srv://root:0@cluster0.2k90loo.mongodb.net/?appName=Cluster0"
+const uri = process.env.MONGODB_URI || "mongodb+srv://ahmadibrahimzidan_db_user:wTKdaiRY5LwWfUFq@clusterfoodorders.a8zt98p.mongodb.net/?appName=Clusterfoodorders"
 
 async function connectDB() {
   const client = new MongoClient(uri)
