@@ -90,13 +90,12 @@ export default function FoodOrderForm({ foodItems, onAddOrder }: FoodOrderFormPr
           ))}
         </div>
 
-        {/* Submit Button */}
-        <Button
-          onClick={handleSubmit}
-          className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-semibold py-6 text-lg"
-        >
-          Add Order
-        </Button>
+   <Button type="button" onClick={handleSubmit}
+    className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-semibold py-6 text-lg"
+>
+    Add Order
+    </Button>
+       
       </CardContent>
     </Card>
   )
